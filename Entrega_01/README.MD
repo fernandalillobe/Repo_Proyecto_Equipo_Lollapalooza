@@ -7,3 +7,9 @@
 *Si comparamos a los headliners del año 2011 con los de ediciones más recientes, sus presentaciones no eran tan elaboradas como las de la actualidad: no todas contaban con coreografías, banda en vivo, dirección de arte, una narrativa y una marcada interacción con el público.* 
 ## Pregunta de investigación
 *¿Por qué los Headliners de Lollapalooza han optado por traer shows más elaborados y con más propuesta artística?¿Ya no es necesario solamente cantar en vivo?*
+## Antecedentes del tema
+*En medios de comunicación tradicionales, la cobertura del festival se centra principalmente en torno a los artistas que participan, las fechas, la ubicación, la seguridad, los puntos de venta de las entradas y la entrega de pulseras. En este contexto, algunos artículos profundizan en los artistas, su trayectoria y su relación con Chile; otros abordan el lugar dónde se realizará el evento y las preferencias o incomodidades de los asistentes (como la comparación entre Parque Cerrillos y Parque O'higgins), además de informar sobre las fechas de la próxima edición.*
+
+*También se menciona, aunque superficialmente, la diversidad de géneros musicales en el festival, aunque no ahondan en ello demasiado. En cuanto a la performance —que es el foco principal de este análisis—, no es el fuerte de los medios hablar de ello. Solo en algunos casos se aborda con mayor detalle, generalmente a través de reseñas de shows específicos. Un ejemplo de ello es la sección Culto de La Tercera, especializada en cultura, música, cine, libros y tendencias en la industria nacional e internacional donde sí se observa un mayor énfasis en la puesta en escena de algunos shows.*
+
+*Por supuesto, la cobertura también incluye hechos puntuales o problemáticas ocurridas durante el festival, por ejemplo, este año se reportaron incidentes por los fuegos artificiales durante el show de Sabrina Carpenter, provocando quemaduras entre los asistentes.*
