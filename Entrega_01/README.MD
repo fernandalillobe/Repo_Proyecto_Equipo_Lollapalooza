@@ -38,6 +38,7 @@
 ### ¿Qué tipo de elementos digitales les gustaría tener? ¿Cómo esos elementos ayudarán a contar su historia? Adjunten ejemplos y referencias.
 *Se debe tener un buena representación visual y gráfica para que el usuario tenga una grata experiencia y una buena comprensión de lo que se quiere contar, por ello, el diseño y narración son fundamentales. Como el tema general es el festival Lollapalooza, la estética de nuestra webstory debe ir acorde a los colores y estilos de este. En cuanto a las representaciones gráficas, pretendemos apoyar nuestra información con gráficos estadísticos, una línea de tiempo interactiva, imágenes, videos, etc. Pretendemos hacer un storytelling visual entretenido con estas herramientas para transmitir una energía similar a la que vives en los shows de Lollapalooza a la vez que te informas, para así captar desde el principio la atención del usuario y mantenerlo expectante hasta el final.*
 *Los gráficos estadísticos y la línea de tiempo serán creados con la herramienta de visualización de datos Flourish: https://flourish.studio/visualisations/timeline-maker/*
+
 *Las imágenes y videos se recopilarán de páginas oficiales e incluso de las redes sociales del festival y los artistas.*
 ## Resultados
 ### ¿Qué es lo mínimo que se puede contar como historia con los datos que tienen? ¿Qué es lo máximo?
