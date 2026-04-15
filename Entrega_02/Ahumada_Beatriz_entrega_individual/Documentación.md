@@ -8,7 +8,7 @@ En cuanto a la etapa de recopilación manual de datos, este fue un trabajo arduo
 
 Cabe destacar que aquellos espacios en blanco o destacados con amarillo faltan por completarse, pero eventualmente se completarán.
 
-## Fuentes utilizada
+## Fuentes utilizadas
 
 Como bien se ha mencionado, las fuentes que he utilizado son:
 
