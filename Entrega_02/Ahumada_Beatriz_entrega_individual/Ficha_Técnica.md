@@ -19,9 +19,9 @@ Los tipos de datos que se recolectaron los podemos clasificar en base a su natur
 | Variable | Descripción | Tipo de dato | Valores posibles |
 |----------|-------------|--------------|------------------|
 | Año de edición | Año en que se realiza el festival | Cuantitativo | 2011 a 2026 |
-| Artista | Nombre de la banda o cantante | Cualitativo | Existe mucha diversidad |
+| Artista | Nombre de la banda o cantante | Cualitativo | Diversidad de nombres |
 | Género musical | Estilo de música de la banda o cantante | Cualitativo | Rock, pop, R&B, electrónica, etc |
 | Nacionalidad | Nación a la que pertenece | Cualitativo | Estadounidense, Neerlandesa, Argentina, Chilena, etc |
-| Escenario | Nombre del escenario en que se presentó | Cualitativo | > P |
+| Escenario | Nombre del escenario en que se presentó | Cualitativo | Diversidad de escenarios |
 | Cantidad de presentaciones | Veces que se presentó en el festival hasta la fecha | Cuantitativo | 1, 2, 3, 4, etc |
 | Integrantes | Cantidad de integrantes de la banda | Cuantitativo | 1, 2, 3, 4, etc |
