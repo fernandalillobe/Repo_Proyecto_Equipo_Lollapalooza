@@ -1,5 +1,5 @@
 # Documentación
-## Explicación de cómo se realizó el procesa de limpieza de datos
+## Explicación de cómo se realizó el proceso de limpieza de datos
 Dado que nosotras tuvimos que crear nuestra base desde cero, lo que hicimos fue recolectar datos de todos los artistas que se han presentado en Lollapalooza Chile a través de páginas web especializadas en música, plataformas de noticias, Wikis, videos de YouTube, entre otras cosas. En el camino, definimos que trabajar con un Excel compartido sería lo mejor dado el tiempo que teníamos, especialmente porque al trabajar mediante esa plataforma cada una podía avanzar cuando tuviera tiempo libre sin depender de las demás. Del mismo modo, destacábamos con amarillo los espacios en que teníamos alguna duda o un dato sin rellenar, esto con la intención de que el color resaltara en el Excel para así no perderlo de vista. Además, utilizamos un documento de Google (también compartido), en donde dejábamos información relevante sobre el trabajo, como links o notas. 
 ## Lista de las fuentes de datos utilizados y una explicación de por qué los eligieron
 Para este trabajo utilicé fuentes como:
