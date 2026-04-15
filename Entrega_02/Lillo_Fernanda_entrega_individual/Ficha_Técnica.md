@@ -22,10 +22,13 @@ Según su categoría, utilice datos no estructurados y semiestructurados. Lo ant
 ## Otras observaciones que tengan sobre la base
 La base de datos no esta completa ya que nos falto tiempo para completarla, sin embargo, con la información que se alcanzó a recolectar logramos hacer un par de conclusiones generales sobre nuestra historia.
 ## Diccionario de datos
-* Variable 1: Edición del Lollapalooza. Esta se refiere al año en que se realizó el evento. Es un dato cuantitativo y sus valores posibles van desde 2011 a 2026 (exceptuando los años 2020 y 2021).
-* Variable 2: Artista. Se refiere al nombre del grupo o artista que se presentó en el festival. Es un dato cualitativo.
-* Variable 3: Género musical. Se refiere al tipo de música que ofrece un artista. Es un dato cualitativo y puede variar entre diversas opciones tales como el pop, hip hop, trap, balada, electrónica, entre otras.
-* Variable 4: Integrantes. Se refiere a definir si un artista es solista o banda, y sí fuera una banda, se debe determinar su cantidad de integrantes. Es un dato cuantitativo y, hasta el momento, sus valores varían entre 1 a 8 miembros aproximadamente.
-* Variable 5: Headliner. Se refiere a si el artista fue headliner del festival o no. Corresponde a un dato cualitativo. Sus opciones varían entre “sí” y “no”. 
-* Variable 6: Escenario. Se refiere al nombre del escenario en el que se presentó un artista. Es un dato cualitativo. Las opciones pueden variar entre Coca Cola Zero Stage, Tech Stage, Lotus Stage, VTR Stage, Perry’s Stage, entre otros.
-* Variable 6: Cantidad de veces en que una artista se presentó en Lollapalooza. Es un dato cuantitativo. Sus valores posibles, hasta el momento pueden ir de 1 a 4. 
+| Variable | Descripción | Tipo de dato | Valores posibles |
+|----------|-------------|--------------|------------------|
+| Edición del festival| Año en que se realizó el Lollapalooza| Cuantitativo | 2011 a 2026 (exceptuando 2020 y 2021)|
+| Artista | Nombre del cantante o la banda| Cualitativo | Diversos|
+| Género musical | Estilo/tipo de música | Cualitativo | Trap, pop, rock, indie, etc |
+| Integrantes | Cantidad de integrantes/solista| Cuantitativo | 1-8 aprox |
+| Escenario | Nombre del escenario en que se presentaron | Cualitativo | Diversos |
+| Cantidad de presentaciones | Cantidad de veces en que se presentaron en el festival hasta la fecha que se esta analizando| Cuantitativo | 1-4 aprox |
+| Nacionalidad | País de origen del artista |Cualitativo| Diverso: Chilena, Estadounidense, Canadiense, Brasileña, etc |
+| Headliner | Artistas principales | Cualitativo |Diverso|
