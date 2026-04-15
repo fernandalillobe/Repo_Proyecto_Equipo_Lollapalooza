@@ -8,7 +8,7 @@ Al ser una base de datos construida desde cero por el grupo, se definieron  colu
 
 ## Alcance de datos
 
-Mi análisis individual se hizo en base a los años 206 a 2019, reuniendo información respecto a cada artista que formaba parte de los lineups, su género musical, nacionalidad, escenarios de presentación y cantidad de presentaciones en el festival hasta la fecha de edición.
+Mi análisis individual se hizo en base a los años 2016 a 2019, reuniendo información respecto a cada artista que formaba parte de los lineups, su género musical, nacionalidad, escenarios de presentación y cantidad de presentaciones en el festival hasta la fecha de edición.
 
 ## Características de los datos
 
