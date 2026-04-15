@@ -12,11 +12,11 @@ Con mi grupo decidimos que para construir la base lo mejor sería dividirnos el 
 ## Alcance de los datos
 Nuestro alcance de datos se centró en analizar las ediciones, nacionalidades, escenarios y géneros musicales de todos los artistas que se han presentado en Lollapalooza Chile, además de determinar si estos son artistas en solitario o bandas, así como la cantidad de veces que se han presentado en el festival. Por ello, nuestros datos abarcan todos los años de existencia del festival.
 ## Características de los datos
-Los datos que recolectamos son, según su naturaleza, cualitativos y cuantitativos. Los cualitativos serían el género musical, nacionalidad, escenario, y nombre del artista. Por su parte, los cuantitativos son la cantidad de integrantes, edición del festival y la cantidad de veces que han estado en el evento. 
+Los datos que recolectamos son, según su naturaleza, cualitativos y cuantitativos. Los cualitativos serían el género musical, nacionalidad, escenario, si es headliner o no y nombre del artista. Por su parte, los cuantitativos son la cantidad de integrantes, edición del festival y la cantidad de veces que han estado en el evento. 
 
 Según su estado, corresponden a datos procesados, ya que alguien más se encargó de ordenar y publicar la información en las páginas web que visité para darles un formato determinado.
 
-Según su fuente, son datos de fuente abierta, ya que pueden ser buscados, utilizados y redistribuidos por cualquier persona además de mí, de hecho. Por ejemplo, yo busqué datos en Wikipedia, los que reutilicé y ordené en mi base de datos, y dado que ese sitio web es de uso público y gratuito, cualquier otra persona podría ir a buscar los mismos datos y utilizarlos para otra cosa.
+Según su fuente, son datos de fuente abierta, ya que pueden ser buscados, utilizados y redistribuidos por cualquier persona además de mí. Por ejemplo, yo busqué datos en Wikipedia, los que reutilicé y ordené en mi base de datos, y dado que ese sitio web es de uso público y gratuito, cualquier otra persona podría ir a buscar los mismos datos y utilizarlos para otra cosa.
 
 Según su categoría, utilice datos no estructurados y semiestructurados. Lo anterior, ya que al leer plataformas de noticias o páginas web especializadas en música, los datos no estaban realmente ordenados, por lo que uno debía extraerlos a través de la lectura. Por otro lado, en los casos de Wiki y Wikipedia, los datos son semiestructurados, ya que tienen una tabla en la que ordenan la información, lo que la vuelve fácil de identificar, pero también cuentan con textos informativos en donde los datos se obtienen por medio de la lectura.
 ## Otras observaciones que tengan sobre la base
