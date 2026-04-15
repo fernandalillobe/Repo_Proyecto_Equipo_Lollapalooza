@@ -1,6 +1,6 @@
 # Ficha técnica
 ## Fuente de los datos
-Para construir la base de datos obtuve la información a través de sitios web como Wikipedia, MusicaPopular, plataformas de noticias como Chilevisión y La Tercera, wikis especializadas en diferentes artistas (a través de sitios web como “Fandom”), y páginas dedicadas a publicar contenido sobre música como Los40, Somos Ruidosa, Rock&Pop, SunderBeats y Sony Music Chile. Además, me apoyé en la información general que Google ofrece sobre los artistas. Algunos de los links de los sitios web que utilice son:
+Para construir la base de datos obtuve la información a través de sitios web como Wikipedia, MusicaPopular, plataformas de noticias como Chilevisión y La Tercera, wikis especializadas en diferentes artistas (a través de sitios web como “Fandom”), y páginas dedicadas a publicar contenido sobre música como Los40, Somos Ruidosa, Rock&Pop, SunderBeats y Sony Music Chile. Además, me apoyé en la información general que Google ofrece sobre los artistas. Algunos de los links de los sitios web que utilicé son:
 * https://www.musicapopular.cl/grupo/lucybell/
 * https://www.rockandpop.cl/2022/03/idles-la-fulgurante-banda-de-rock-que-aterriza-en-lollapalooza-chile-2022/
 * https://www.latercera.com/culto/2023/03/08/lollapalooza-chile-2023-revela-sus-horarios-y-tambien-la-bajada-de-algunos-artistas/
@@ -26,9 +26,9 @@ La base de datos no está completa ya que nos faltó tiempo para completarla, si
 |----------|-------------|--------------|------------------|
 | Edición del festival| Año en que se realizó el Lollapalooza| Cuantitativo | 2011 a 2026 (exceptuando 2020 y 2021)|
 | Artista | Nombre del cantante o la banda| Cualitativo | Diversos|
-| Género musical | Estilo/tipo de música | Cualitativo | Trap, pop, rock, indie, etc |
+| Género musical | Estilo/tipo de música | Cualitativo | Diversos: trap, pop, rock, indie, etc |
 | Integrantes | Cantidad de integrantes/solista| Cuantitativo | 1-8 aprox |
 | Escenario | Nombre del escenario en que se presentaron | Cualitativo | Diversos |
 | Cantidad de presentaciones | Cantidad de veces en que se presentaron en el festival hasta la fecha que se esta analizando| Cuantitativo | 1-4 aprox |
 | Nacionalidad | País de origen del artista |Cualitativo| Diverso: Chilena, Estadounidense, Canadiense, Brasileña, etc |
-| Headliner | Artistas principales | Cualitativo |Diverso|
+| Headliner | Artistas principales | Cualitativo |Sí/No|
