@@ -6,13 +6,13 @@ Mantuvimos la decisión de dividirnos la cantidad de ediciones, donde yo me preo
 
 Para hacer la visualización utilicé la plataforma Google Colab, donde seguí los pasos que se presentaron en clases para la elaboración del gráfico en Altair. Hice 5 puntos de la clase de Pandas para visualizar esta entrega, las que dividí en "Abrir la base", "Tamaño y estructura de la base", "Columnas individuales", "Contar categorías", "Ordenar datos" y "Gráfico con Altair". 
 
-Cabe destacar que para hacer los códigos en Google Colab, tuve que recurrir a la inteligencia artificial Claude para resolver dudas puntuales. Por ejemplo para entender cómo usar "melt" para combinar las tres columnas de géneros musicales en una sola y que el gráfico mostrara esa diversidad, cómo usar "groupby" para contar géneros por edición y también para entender por qué me salía "error" cuando ejecutaba ciertos códigos. Además, me ayudó a tomar la decisión de qué tipo de gráfico construir (barras) y a exportarlo en HTML y JPG porque no entendía cómo hacerlo. Para ello me dió códigos que copié y pegué. 
+Cabe destacar que para hacer los códigos en Google Colab, tuve que recurrir a la inteligencia artificial Claude para resolver dudas puntuales, por ejemplo para entender cómo usar "melt" para combinar las tres columnas de géneros musicales en una sola y que el gráfico mostrara esa diversidad, sobre cómo usar "groupby" para contar géneros por edición y también para entender por qué me salía "error" cuando ejecutaba ciertos códigos. Además, me ayudó a tomar la decisión de qué tipo de gráfico construir (barras) y a exportarlo en HTML y JPG porque no entendía cómo hacerlo. Para ello me dió códigos que copié y pegué. 
 
 ## Acerca de la Base de datos
 
 Hacer una base de datos desde cero sin duda que es un trabajo arduo y exhaustivo, puesto que había que buscar la información manualmente y colocarla en cada una de las cientas de casillas que contempla nuestra base. Una vez armada, se creó una tabla dinámica que permitió poder verificar de forma más rápida lo que andabamos buscando para la creación de nuestros gráficos. 
 
-Se eligió esta base de datos puesto que es con la única que contamos hasta la fecha y porque la profesora nos autorizó a hacer las gráficas en base a esta. 
+Se eligió esta base de datos puesto que es con la única que contamos hasta la fecha y porque la profesora nos autorizó a hacer los gráficos en base a esta. 
 
 Como es la base de datos principal, no fue dificil definir los parámetros para cada gráfico, ya que contempla una gran diversidad de datos y así nuestras gráficas pueden contemplar también la diversidad de variables que se toman en cuenta para el proyecto. Sin embargo, para la próxima entrega podremos entregar visualizacione más  guiadas al tema que nos convoca: los shows performáticos.
 
