@@ -14,7 +14,7 @@ Como es la base de datos principal, no fue dificil definir los parámetros para 
 
 ## Preguntas que se pueden responder con la base de datos
 
-Las preguntas que se pueden responder en base a la base de datos que se cosntruyó son: 
+Las preguntas que se pueden responder en base a la base de datos que se construyó son: 
 
 1. ¿Cuál es el género musical predominante por edición?
 2. ¿Cuántas veces se repite la música electrónica en la edición de 2018?
