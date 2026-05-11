@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-e46165adc0060cd67e3b9cc07e946afc"}, "mark": {"type": "bar", "color": "teal"}, "encoding": {"tooltip": [{"field": "edicion lolla", "title": "Edici\u00f3n", "type": "quantitative"}, {"field": "cantidad", "title": "Total Artistas", "type": "quantitative"}], "x": {"field": "edicion lolla", "title": "A\u00f1o de la edicion", "type": "ordinal"}, "y": {"field": "cantidad", "title": "N\u00famero de artistas chilenos", "type": "quantitative"}}, "height": 400, "params": [{"name": "param_2", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": "Representaci\u00f3n de artistas chilenos en Lollapalooza por a\u00f1o", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-e46165adc0060cd67e3b9cc07e946afc": [{"edicion lolla": 2011, "cantidad": 17}, {"edicion lolla": 2012, "cantidad": 15}, {"edicion lolla": 2013, "cantidad": 18}, {"edicion lolla": 2014, "cantidad": 21}, {"edicion lolla": 2015, "cantidad": 30}, {"edicion lolla": 2016, "cantidad": 18}, {"edicion lolla": 2017, "cantidad": 29}, {"edicion lolla": 2018, "cantidad": 43}, {"edicion lolla": 2019, "cantidad": 49}, {"edicion lolla": 2022, "cantidad": 41}, {"edicion lolla": 2023, "cantidad": 31}, {"edicion lolla": 2024, "cantidad": 34}, {"edicion lolla": 2025, "cantidad": 21}, {"edicion lolla": 2026, "cantidad": 40}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
