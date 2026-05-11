@@ -1,6 +1,6 @@
 ## Historial de procesos y decisiones
 
-Para efectos de este trabajo, se tuvo que completar en su totalidad la base de datos 1, creada desde cero en Excel que contempla cada columna con su filtro, asignándole un respectivo titular: edición del festival, artista, genero musical 01, genero musical 02, genero musical 03, cantidad de integrantes, nacionalidad, headliner, escenario de presentación y cantidad de veces que se presentó el artista en el festival hasta la fecha. La información se obtuvo de fuentes como Wikipedia, sitios web de noticias y sitios web dedicados a la música.
+Para efectos de este trabajo, se tuvo que completar en su totalidad la base de datos 1, creada desde cero en Excel que contempla cada columna con su filtro, asignándole un respectivo titular: edicion lolla, artista, genero musical 01, genero musical 02, genero musical 03, integrantes, nacionalidad, headliner, escenario de presentación y cantidad de veces que se presentó el artista en el festival hasta la fecha. La información se obtuvo de fuentes como Wikipedia, sitios web de noticias y sitios web dedicados a la música.
 
 Mantuvimos la decisión de dividirnos la cantidad de ediciones, donde yo me preocupe de hacer la base de datos del año 2016 al 2019.
 
