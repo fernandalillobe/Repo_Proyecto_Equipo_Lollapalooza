@@ -1,8 +1,7 @@
-1. Readme general de la entrega [Grupal | formato Markdown]
-En un documento (su archivo README de la carpeta raíz para la entrega 03) deben presentar el tema elegido con las actualizaciones de la Entrega 02, su justificación y la formulación de la hipótesis de investigación. Las secciones mínimas a tratar en el documento son:
+# Entrega grupal
+Hipótesis actual: El show de los artistas de Lollapalooza Chile ha virado desde presentaciones de bandas con música en vivo a tipos de show más perfomáticos que involucran coreografía, visuales y acting, y no solamente el canto en vivo.
 
-Hipótesis actual: ¿Qué se quiere demostrar o revelar? Una o dos frases.
-Preguntas de investigación actuales: ¿Qué preguntas están guiando su trabajo con los datos?
-Avance de su proyecto en relación con la hipótesis y preguntas de investigación: A nivel general y, por tanto, grupal, cómo las bases de datos les ayudaron a avanzar en la construcción de la historia hasta ahora. Cómo modificaron o reforzaron estos elementos lo que tenían planteado como historia.
-Síntesis de la historia: Resumen de la historia actual.
-Nota: Máximo de caracteres para esta sección: 3000.
+Preguntas de investigación actuales:
+¿Cuáles son los artistas que se presentaron en cada edición del Lollapalooza? ¿Son solistas o bandas? ¿Cuál es su nacionalidad? ¿Cuáles son sus géneros musicales? ¿En qué escenario se presentaron? ¿Cuántas veces se han presentado en el festival hasta la fecha?
+
+En cuanto al avance de nuestro proyecto nos hemos percatado de que los géneros musicales de los headliners han tenido una gran variación con el paso de los años, desde la primera edición en 2011 hasta la actualidad (incluido 2026), lo que nos hace pensar que las presentaciones y shows de los artistas también se han diversificado, en cuanto a la puesta en escena en general y los elementos utilizados para dichos shows. Esto refuerza lo que teníamos planteado originalmente como nuestra historia, es decir, la hipótesis inicial. Cabe mencionar que en los procesos individuales de visualización se han descubierto diversos fenómenos, que abordará cada una según lo solicitado con la entrega. 
