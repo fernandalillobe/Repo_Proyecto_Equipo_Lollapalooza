@@ -47,8 +47,8 @@
 2011,Denver,Indie Pop,Electro pop,NA,2,Chilena,No,Tech Stage,1
 2011,Ital ,NA,NA ,NA,1,Chilena,No,LG Stage,1
 2011,Matanza ,Electrónica,Folclore,Dub,3,Chilena,No,LG Stage,1
-2011,Mundano,Rap Metal,NA ,NA,,Chilena,No,Tech Stage,1
-2011,Devil Presley,Rock,NA ,NA,,Chilena,No,Tech Stage,1
+2011,Mundano,Rap Metal,NA ,NA,NA,Chilena,No,Tech Stage,1
+2011,Devil Presley,Rock,NA ,NA,NA,Chilena,No,Tech Stage,1
 2012,Björk ,Electrónica,Art Pop,Experimental,1,Islandesa,Sí,Claro-LG Stage,1
 2012,Cage the Elephant,Indie Rock,Blues Rock,Rock Alternativo,6,Estadounidense,No,Claro-LG Stage,1
 2012,Thievery Corporation,Electrónica,Dub,Lounge,2,Estadounidense,No,Claro-LG Stage,1
@@ -420,7 +420,7 @@
 2018,Damas Gratis,Cumbia villera,Ska,Cumbia ,8,Argentina,No,Itaú Stage,1
 2018,Kuervos del Sur,Rock progresivo,Folk rock,Post grunge,6,Chilena,No,Itaú Stage,2
 2018,Camila Cabello,Pop,R&B,Salsa,1,Cubana,No,Acer Stage,1
-2018,Anderson .Paak,,R&B/hip hop/funk/soul,,1,Estadounidense,No,Acer Stage,1
+2018,Anderson .Paak,R&b,Hip hop,Soul,1,Estadounidense,No,Acer Stage,1
 2018,Zara Larsson,Dance pop,Pop,Electropop,1,Sueca,No,Acer Stage,1
 2018,Oh Wonder,Indie pop,Electropop,Synth pop,4,Británica,No,Acer Stage,1
 2018,Fernando Milagros,Pop rock,Indie folk,Trova,1,Chilena,No,Acer Stage,3
@@ -697,13 +697,13 @@
 2022,Lucybell,Rock alternativo,Shoegaze,Dream pop,3,Chilena,No,Lotus Stage,3
 2022,C-funk,Funk,Soul,Rock  ,7,Chilena,No,Lotus Stage,1
 2022,Latin Bitman,Hip hop,Funk,R&B,1,Chilena,No,Lotus Stage,3
-2022,Girlultra,R&B,Soul,,1,Mexicana,No,Lotus Stage,1
+2022,Girlultra,R&B,Soul,NA,1,Mexicana,No,Lotus Stage,1
 2022,Golden Dawn Arkestra,Afro-beat,Soul,Funk,NA,Estadounidense,No,Aldea Verde,1
 2022,Micro TDH,Hip hop,Trap latino,Dance pop,1,Venezolana,No,Aldea Verde,1
 2022,BMF Squad,Hip hop,Rap,NA,1,Chilena,No,Aldea Verde,1
 2022,Silvestre y la naranja,Rock,Indie Rock,Funk,4,Argentina,No,Aldea Verde,1
 2022,Nakeye,Hip hop,Reggae,Electrónica,1,Chilena,No,Aldea Verde,1
-2022,Yorka,Pop,Indie pop,,2,Chilena,No,Aldea Verde,1
+2022,Yorka,Pop,Indie pop,NA,2,Chilena,No,Aldea Verde,1
 2022,Red Bull Batalla,Freestyle,NA,NA,NA,Múltiple,No,Aldea Verde,1
 2022,Catana,Hip hop,R&B,Electrónica,1,Chilena,No,Aldea Verde,1
 2022,Liz Santibañez,Pop,Folk Rock,NA,1,Chilena,No,Aldea Verde,1
@@ -1009,7 +1009,7 @@
 2026,Manuel García,Rock,Trova,Folk,1,Chilena,No,Alternative Stage,2
 2026,TV Girl,Indie pop,Ambient pop,Dream pop,3,Estadounidense,No,Alternative Stage,1
 2026,2 Minutos,Punk rock,Ska punk,NA,5,Argentina,No,Alternative Stage,1
-2026,RIIZE,K-pop,Pop rock,House  ,6,Coreana,No,Alternative Stage,1
+2026,RIIZE,K-pop,Pop rock,House  ,6,Surcoreana,No,Alternative Stage,1
 2026,Benja Valencia,Reguetón,Trap ,Pop,1,Chilena,No,Perry's Stage,1
 2026,Bryartz,Reguetón,Trap,Urbano,1,Chilena,No,Perry's Stage,1
 2026,Saske,Rap,Urbano,NA,1,Española,No,Perry's Stage,1
@@ -1052,4 +1052,3 @@
 2026,Claudio Valenzuela Trio,Rock alternativo,Pop  ,Post-punk,3,Chilena,No,Lotus Stage,1
 2026,Mau & Ricky,Reguetón,Pop latino,Cumbias,2,Venezolana,No,Lotus Stage,1
 2026,Quilapayún,Fusión latinoamericana,Música andina,Música folclórica,11,Chilena,No,Lotus Stage,2
-,,,,,,,,,

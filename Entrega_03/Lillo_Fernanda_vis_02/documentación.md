@@ -1,0 +1,11 @@
+# Documentación
+## ¿Cómo se realizó el proceso de visualización?
+Para el proceso de visualización nos guiamos de la clase de Pandas, utilizando los códigos mostrados en clases como base para crear los gráficos y ordenar la información. Además, en mi caso personal, me apoyé de la inteligencia artificial Gemini para poder visualizar los datos, ya que me ayudó a resolver dudas que tenía y con la creación de códigos puntuales.
+
+## Base de datos del trabajo
+Para esta entrega utilizamos la base de datos adjunta en la parte inicial de esta entrega, la que realizamos de forma autónoma buscando la información a través de internet. Para completarla, buscamos información relativa a todas las ediciones del Lollapalooza Chile, los artistas que se presentaron, sus géneros musicales, el número de integrantes de cada banda (o identificar si había artistas solistas), la nacionalidad de cada cantante o grupo, reconocer si eran headliners o no, establecer los escenarios en los que se presentaron y, finalmente, establecer la cantidad de veces que se han presentado en el festival.
+
+Seleccionamos esta base de datos para trabajar ya que, como se habló previamente con las profesoras, aún debemos trabajar en el desarrollo de nuestra segunda base, la que se enfoca en analizar las presentaciones de todos los headliners del Lollapalooza Chile, por lo que se decidió que lo mejor sería trabajar con la base de datos que ya teníamos completa para que, de esta forma, las visualizaciones sean más exactas.
+
+## ¿Qué preguntas se pueden responder con la visualización de datos final?
+Las preguntas que puede responder mi visualización de datos final son: ¿La presencia de artistas chilenos en el festival ha disminuido o aumentado con el paso de los años? ¿En qué año hubo una mayor presencia de artistas chilenos en el festival? ¿Cuál es el promedio de artistas chilenos que se presentan por año en el Lollapalooza? 
