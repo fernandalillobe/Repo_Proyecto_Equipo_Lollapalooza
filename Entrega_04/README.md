@@ -7,4 +7,4 @@ En cuanto a la tipografía, decidimos utilizar las fuentes Titan One y Fredoka O
 
 En cuanto a nuestros recursos gráficos, decidimos que estos debían tener un estilo simple, ya que hacerlos muy llamativos, sumado a la diversa paleta de colores que utilizaremos, podría generar una saturación visual en las personas que ingresen a la webstory.
 
-Además, para nuestro moodboard decidimos incluir imágenes que transmitieran el ambiente del festival: se observan artistas, público, y puestas en escena.
+Además, para nuestro moodboard decidimos incluir imágenes que transmitieran el ambiente del festival: se observan artistas, público, y puestas en escena_
