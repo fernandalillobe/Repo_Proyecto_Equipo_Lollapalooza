@@ -12,3 +12,5 @@ Link wireframe y pizarra de Miro: https://miro.com/welcomeonboard/QUlReEJGYVgwbF
 En cuanto a nuestro wireframe, decidimos posicionar diversos elementos con la paleta de colores que utilizaremos, así como los elementos centrales de nuestra webstory, los cuales incluyen los años de las ediciones del Lollapalooza, imágenes del festival, slides interactivos y otros elementos gráficos como el menú desplegable, los títulos, descripciones de las secciones, entre otros.
 
 A su vez, decidimos incluir nuestro (posible) logo, el cuál tiene la tipografía de Lollapalooza al igual como se visualiza al principio, en el nombre de nuestra webstory, "LollaPerformances". 
+
+Cabe señalar que subimos nuestros avances de la segunda base de datos, en donde analizamos las performances realizadas por los headliners.
