@@ -9,7 +9,7 @@ En cuanto a nuestros recursos gráficos, decidimos que estos debían tener un es
 
 Además, para nuestro moodboard decidimos incluir imágenes que transmitieran el ambiente del festival: se observan artistas, público, y puestas en escena.
 
-Link wireframe: https://miro.com/welcomeonboard/QUlReEJGYVgwbFZOS3ZOM3B2TzVFSDMxdG8rVFlIQjd1Q0R4MUZNY0ZYMWhleEx5T0I1Tk1YK2IrcjJLMTNxQmVCaUh4WGUrRXZvUHlVQWF1ZjNpL2h3b0FQek1jOEJVQ2NUai9iYWR0TE5EQjBmaWU4SVF2dSs2SGRia1paY3NBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=80804284346 
+Link wireframe y pizarra de Miro: https://miro.com/welcomeonboard/QUlReEJGYVgwbFZOS3ZOM3B2TzVFSDMxdG8rVFlIQjd1Q0R4MUZNY0ZYMWhleEx5T0I1Tk1YK2IrcjJLMTNxQmVCaUh4WGUrRXZvUHlVQWF1ZjNpL2h3b0FQek1jOEJVQ2NUai9iYWR0TE5EQjBmaWU4SVF2dSs2SGRia1paY3NBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=80804284346 
  
 En cuanto a nuestro wireframe, decidimos posicionar diversos elementos con la paleta de colores que utilizaremos, y en base a los elementos centrales de nuestra webstory, como por ejemplo los años de las ediciones del Lollapalooza, imágenes del festival, slides interactivos y otros elementos gráficos como el menú desplegable, los títulos y descripciones de las secciones, etc. 
 
