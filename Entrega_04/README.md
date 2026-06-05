@@ -9,4 +9,4 @@ En cuanto a nuestros recursos gráficos, decidimos que estos debían tener un es
 
 Además, para nuestro moodboard decidimos incluir imágenes que transmitieran el ambiente del festival: se observan artistas, público, y puestas en escena.
 
-En cuanto al wireframe blablabla
+En cuanto al wireframe blablabl
