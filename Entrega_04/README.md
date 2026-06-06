@@ -18,7 +18,7 @@ En cuanto a nuestro wireframe, decidimos posicionar diversos elementos con la pa
 
 A su vez, decidimos incluir nuestro (posible) logo, el cuál tiene la tipografía de Lollapalooza al igual como se visualiza al principio, en el nombre de nuestra webstory, "LollaPerformances". 
 
-## Hipótesis y propuesta
+## Hipótesis
 
 El show de los artistas que han estado presentes en Lollapalooza Chile, ha virado desde presentaciones de bandas con música en vivo a tipos de show más performáticos que involucran coreografía, escenografía más elaborada, visuales y actuación, no solamente el hecho en sí mismo de cantar en vivo.
 
