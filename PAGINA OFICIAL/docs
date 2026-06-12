@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>
+            Mi primera página web
+        </title>
+    </head>
+    <body>
+        <h1>
+            Cabecera más grande
+        </h1>
+        <p>
+            Hola, soy un párrafo
+        </p>
+        <p>
+            soy otro párrafo
+        </p>
+    </body> 
+</html> 
