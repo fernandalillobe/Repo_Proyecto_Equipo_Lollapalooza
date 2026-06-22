@@ -14,11 +14,11 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Titan One', cursive;
+    font-family: 'Titan One', 'Fredoka One', cursive;
 }
 
 p {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .seccion-turquesa {
