@@ -55,3 +55,15 @@ p {
     width: 380px;
     height: auto;
 }
+
+h2 {
+    padding: 20px 20px 10px 20px;
+}
+
+p{
+    padding: 10px 20px 20px 20px;
+}
+
+section {
+    padding: 40px;
+}
