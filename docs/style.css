@@ -17,3 +17,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.cabecera-principal {
+    background-color: #00af9a;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 30px;
+}
+
+.logo-header {
+    width: 80px;
+    height: auto;
+}
+
+.titulo-header {
+    width: 380px;
+    height: auto;
+}
