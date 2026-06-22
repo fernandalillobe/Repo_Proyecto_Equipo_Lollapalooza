@@ -4,12 +4,17 @@
         <title>LollaPerformances</title>
         
         <style>
-            /* Método tradicional para centrar ÚNICAMENTE la imagen */
+            /* Centra exclusivamente el texto de bienvenida */
+            .texto-bienvenida {
+                text-align: center;
+            }
+
+            /* Mantiene la imagen centrada como un bloque */
             .imagen-cartel {
-                display: block;       /* Convierte la imagen en un bloque */
-                margin-left: auto;    /* Margen automático a la izquierda */
-                margin-right: auto;   /* Margen automático a la derecha */
-                margin-top: 15px;     /* Separa el cartel del texto de arriba */
+                display: block;       
+                margin-left: auto;    
+                margin-right: auto;   
+                margin-top: 15px;     
             }
         </style>
     </head>
@@ -22,10 +27,11 @@
         </header>
         
         <div>
-            <p>
+            <!-- Le agregamos la clase para centrar el texto -->
+            <p class="texto-bienvenida">
                 ¡Bienvenidos a nuestra página web!
             </p>
-            <img src="imagenes/Cartel-Lolla.jpg" alt="Lollapalooza" width="600" class="imagen-cartel">
+            <img src="imagenes/Cartel-Lolla.jpg" alt="Lollapalooza" width="300" class="imagen-cartel">
         </div>
 
     </body>
