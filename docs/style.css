@@ -18,6 +18,14 @@
     box-sizing: border-box;
 }
 
+.seccion-naranja {
+    background-color: #ff4d00;
+}
+
+.seccion-rosada {
+    background-color: #e9bad4;
+}
+
 .cabecera-principal {
     background-color: #00af9a;
     display: flex;
