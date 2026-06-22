@@ -4,6 +4,13 @@
         <title>LollaPerformances</title>
         
         <style>
+            /* Estilo exclusivo para centrar la imagen del cartel */
+            .imagen-cartel {
+                display: block;       /* Convierte la imagen en un bloque para que acepte márgenes automáticos */
+                margin-left: auto;    /* Empuja la imagen desde la izquierda al centro */
+                margin-right: auto;   /* Empuja la imagen desde la derecha al centro */
+                margin-top: 15px;     /* Separa la imagen del texto de arriba */
+            }
         </style>
     </head>
     <body>
@@ -17,7 +24,8 @@
             <p>
                 ¡Bienvenidos a nuestra página web!
             </p>
-             <img src="imagenes/Cartel-Lolla.jpg" alt="Lollapalooza" width="100">
+            <!-- Le agregamos la clase "imagen-cartel" aquí -->
+            <img src="imagenes/Cartel-Lolla.jpg" alt="Lollapalooza" width="300" class="imagen-cartel">
         </div>
 
     </body>
