@@ -4,71 +4,6 @@
         <title>La fer no se baña</title>
         
         <style>
-            .cabecera-principal {
-                display: flex;         
-                flex-direction: column; /* Mantiene el título abajo del logo */
-                align-items: flex-start; /* Alinea el logo y el título hacia la izquierda */
-                gap: 20px;             /* Mantiene el espacio vertical de 20px */
-            }
-            /* NUEVOS ESTILOS PARA EL MENÚ */
-            .menu-desplegable {
-                font-family: Arial, sans-serif;
-                margin: 20px 0;
-                max-width: 300px;
-            }
-
-            .menu-desplegable summary {
-                background-color: #333;
-                color: white;
-                padding: 12px 20px;
-                font-size: 16px;
-                font-weight: bold;
-                cursor: pointer;
-                list-style: none;
-                border-radius: 5px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-
-            .menu-desplegable summary:hover {
-                background-color: #555;
-            }
-
-            .menu-desplegable summary::after {
-                content: '▼';
-                font-size: 12px;
-            }
-
-            .menu-desplegable[open] summary::after {
-                content: '▲';
-            }
-
-            .menu-desplegable ul {
-                list-style: none;
-                padding: 0;
-                margin: 5px 0 0 0;
-                background-color: #f9f9f9;
-                border: 1px solid #ddd;
-                border-radius: 5px;
-            }
-
-            .menu-desplegable li a {
-                display: block;
-                padding: 10px 15px;
-                color: #333;
-                text-decoration: none;
-                border-bottom: 1px solid #eee;
-            }
-
-            .menu-desplegable li:last-child a {
-                border-bottom: none;
-            }
-
-            .menu-desplegable li a:hover {
-                background-color: #f1f1f1;
-                color: #000;
-            }
         </style>
     </head>
     <body>
@@ -76,16 +11,5 @@
             <img src="imagenes/logoficial.png" alt="Logo Lollapalooza" width="100">
             <h1>La fer no se baña</h1>
         </header>
-        <!-- MENÚ DESPLEGABLE -->
-        <details class="menu-desplegable">
-            <summary>Ver Índice</summary>
-            <ul>
-                <li><a href="#introduccion">Introducción</a></li>
-                <li><a href="#diversidad">Diversidad de géneros musicales</a></li>
-                <li><a href="#evolucion">Evolución de performances</a></li>
-                <li><a href="#representacion">Representación visual</a></li>
-                <li><a href="#conclusion">Conclusión</a></li>
-            </ul>
-        </details>
     </body>
 </html>
