@@ -70,11 +70,11 @@ section {
 /* El contenedor principal de la grilla */
 .contenedor-grilla {
   display: flex;
-  flex-wrap: wrap;       /* Permite que los cuadritos bajen a la siguiente fila */
+  flex-wrap: wrap;         /* Permite que los cuadritos bajen a la siguiente fila */
   justify-content: center; /* CENTRA los cuadritos sobrantes en la última fila */
-  gap: 20px;             /* Espacio de separación entre cuadritos */
-  max-width: 1000px;     /* Ajusta este ancho según qué tan junta quieras la fila de 4 */
-  margin: 0 auto;        /* Centra todo el bloque en la página web */
+  gap: 20px;               /* Espacio de separación entre cuadritos */
+  max-width: 1000px;       /* Ajusta este ancho según qué tan junta quieras la fila de 4 */
+  margin: 0 auto;          /* Centra todo el bloque en la página web */
   padding: 40px 20px;
   font-family: sans-serif;
 }
@@ -84,11 +84,11 @@ section {
   position: relative;
   /* Calcula el ancho exacto para que entren justo 4 por fila restando el espacio del gap */
   flex: 0 0 calc(25% - 15px); 
-  min-width: 180px;      /* Evita que se deformen en pantallas medianas */
+  min-width: 180px;        /* Evita que se deformen en pantallas medianas */
   box-sizing: border-box;
 }
 
-/* El diseño del cuadrito base */
+/* El diseño del cuadrito base (Con tu color #ffade3) */
 .cuadro-ano {
   background-color: #ffade3;
   color: white;
@@ -102,9 +102,9 @@ section {
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
-/* Efecto visual sutil al pasar el mouse sobre el cuadro */
+/* EFECTO CORREGIDO: Ahora el rosado se oscurece un poco al pasar el mouse */
 .bloque-cronologico:hover .cuadro-ano {
-  background-color: #ffade3;
+  background-color: #ff85d0; /* Un rosado más vivo para que se note el cambio */
   transform: scale(1.02);
 }
 
@@ -113,7 +113,7 @@ section {
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  top: 110%;             /* Aparece flotando justo abajo del cuadrito */
+  top: 110%;               /* Aparece flotando justo abajo del cuadrito */
   left: 50%;
   transform: translateX(-50%) translateY(-10px); /* Centrada respecto a su cuadrito */
   width: 260px;
@@ -125,14 +125,14 @@ section {
   border: 1px solid #e0e0e0;
   z-index: 100;
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
-  pointer-events: none;  /* Evita que parpadee si el cursor roza el borde */
+  pointer-events: none;    /* Evita que parpadee si el cursor roza el borde */
 }
 
-/* Títulos y textos de la tarjeta */
+/* Títulos y textos de la tarjeta (Combinando con tu rosado) */
 .tarjeta-datos h3 {
   margin: 0 0 8px 0;
   font-size: 1rem;
-  color: #ffade3;
+  color: #ff85d0;          /* Título de la tarjeta a tono con el hover */
 }
 .tarjeta-datos p {
   margin: 0;
