@@ -67,3 +67,82 @@ p{
 section {
     padding: 40px;
 }
+/* El contenedor principal de la grilla */
+.contenedor-grilla {
+  display: flex;
+  flex-wrap: wrap;       /* Permite que los cuadritos bajen a la siguiente fila */
+  justify-content: center; /* CENTRA los cuadritos sobrantes en la última fila */
+  gap: 20px;             /* Espacio de separación entre cuadritos */
+  max-width: 1000px;     /* Ajusta este ancho según qué tan junta quieras la fila de 4 */
+  margin: 0 auto;        /* Centra todo el bloque en la página web */
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+/* Cada uno de los 14 bloques individuales */
+.bloque-cronologico {
+  position: relative;
+  /* Calcula el ancho exacto para que entren justo 4 por fila restando el espacio del gap */
+  flex: 0 0 calc(25% - 15px); 
+  min-width: 180px;      /* Evita que se deformen en pantallas medianas */
+  box-sizing: border-box;
+}
+
+/* El diseño del cuadrito base */
+.cuadro-ano {
+  background-color: #0076ff;
+  color: white;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Efecto visual sutil al pasar el mouse sobre el cuadro */
+.bloque-cronologico:hover .cuadro-ano {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+/* La tarjeta con datos que flota (OCULTA POR DEFECTO) */
+.tarjeta-datos {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 110%;             /* Aparece flotando justo abajo del cuadrito */
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px); /* Centrada respecto a su cuadrito */
+  width: 260px;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e0e0e0;
+  z-index: 100;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  pointer-events: none;  /* Evita que parpadee si el cursor roza el borde */
+}
+
+/* Títulos y textos de la tarjeta */
+.tarjeta-datos h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color: #0076ff;
+}
+.tarjeta-datos p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* ACTIVACIÓN: Al pasar el cursor por el bloque, emerge la tarjeta */
+.bloque-cronologico:hover .tarjeta-datos {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
