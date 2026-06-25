@@ -90,7 +90,7 @@ section {
 
 /* El diseño del cuadrito base */
 .cuadro-ano {
-  background-color: #0076ff;
+  background-color: #ffade3;
   color: white;
   padding: 20px;
   font-size: 1.2rem;
@@ -104,7 +104,7 @@ section {
 
 /* Efecto visual sutil al pasar el mouse sobre el cuadro */
 .bloque-cronologico:hover .cuadro-ano {
-  background-color: #0056b3;
+  background-color: #ffade3;
   transform: scale(1.02);
 }
 
@@ -132,7 +132,7 @@ section {
 .tarjeta-datos h3 {
   margin: 0 0 8px 0;
   font-size: 1rem;
-  color: #0076ff;
+  color: #ffade3;
 }
 .tarjeta-datos p {
   margin: 0;
