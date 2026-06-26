@@ -146,3 +146,13 @@ section {
   visibility: visible;
   transform: translateX(-50%) translateY(0);
 }
+
+.video-section {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow: hidden;
+  line-height: 0;
+  height: 45vh;
+  background-color: #000;
+  padding: 0;
+}
