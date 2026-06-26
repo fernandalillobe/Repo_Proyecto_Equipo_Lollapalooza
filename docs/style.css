@@ -146,3 +146,156 @@ section {
   visibility: visible;
   transform: translateX(-50%) translateY(0);
 }
+:root {
+    --primary-color: #3498db;
+    --background-line: #ddd;
+    --text-color: #333;
+    --circle-size: 100px; /* Tamaño ideal para que se aprecien las fotos */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px 0;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+}
+
+/* Contenedor vertical principal */
+.timeline-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Línea vertical central */
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background-color: var(--background-line);
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.timeline-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cada fila de la línea de tiempo */
+.timeline-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px; /* Espacio entre círculos */
+    z-index: 2;
+}
+
+/* Fechas al lado izquierdo de la línea */
+.timeline-date {
+    position: absolute;
+    left: calc(50% - var(--circle-size) - 40px);
+    width: 80px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+/* Círculos grandes para fotos */
+.timeline-circle {
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    overflow: hidden; /* Recorta la imagen en círculo */
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.3s;
+}
+
+/* Las imágenes dentro del círculo */
+.timeline-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la foto sin deformarla */
+    filter: grayscale(20%);
+    transition: filter 0.3s;
+}
+
+/* Efecto Hover en el círculo */
+.timeline-item:hover .timeline-circle {
+    transform: scale(1.1);
+    border-color: var(--primary-color);
+}
+
+.timeline-item:hover .timeline-circle img {
+    filter: grayscale(0%);
+}
+
+/* Cuadro flotante (Tooltip) oculto por defecto */
+.timeline-tooltip {
+    position: absolute;
+    left: calc(50% + (var(--circle-size) / 2) + 20px);
+    width: 260px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    border-left: 5px solid var(--primary-color);
+    
+    /* Ocultar inicialmente */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(15px);
+    transition: all 0.3s ease;
+}
+
+/* Triangulito indicador del cuadro flotante */
+.timeline-tooltip::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: calc(50% - 8px);
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+}
+
+/* Mostrar el cuadro al pasar el cursor sobre el ítem */
+.timeline-item:hover .timeline-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* Estilos internos del cuadro de texto */
+.timeline-tooltip h3 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #222;
+}
+
+.timeline-tooltip p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Adaptación para pantallas móviles */
+@media (max-width: 600px) {
+    .timeline-line { left: 40px; }
+    .timeline-item { justify-content: flex-start; padding-left: 40px; }
+    .timeline-date { position: relative; left: 0; text-align: left; margin-bottom: 10px; font-size: 16px; order: -1; width: auto; margin-right: 15px;}
+    .timeline-tooltip { left: 60px; top: calc(var(--circle-size) + 10px); width: calc(100% - 100px); }
+    .timeline-tooltip::before { display: none; }
+}
