@@ -13,4 +13,11 @@ A lo largo de nuestro trabajo nos hemos percatado de que nuestra hipótesis sobr
 
 Si bien, una parte de nuestro trabajo también abarcó la diversificación de los géneros musicales, podemos sostener que en ese ámbito sí evolucionó nuestra percepción, puesto que en un principio teníamos la hipótesis de que con el paso de los años el festival sufriría un desplazamiento y mitigación del género rockero, pero los resultados de nuestro análisis demostraron que esta gran presencia se mantiene, solo que a ella se le sumaron otros estilos musicales que nivelaron la balanza, abarcando la demanda de gustos por parte de la audiencia.
 
+## Tabla de autoría
+
+| Elemento | Beatriz Ahumada | Fernanda Álvarez | Fernanda Lillo |
+|----------|-------------|--------------|------------------|
+| Base de datos 02 | Encargada del análisis de los shows desde el año 2016 al 2019 (también analizó dentro del rango 2022 a 2026) | Encargada del análisis de los shows desde el año 2011 al 2015 (también analizó dentro del rango 2022 a 2026) | Encargada del análisis de los shows desde el año 2022 al 2026 |
+| Diseño storyweb | Encargada de la estética visual de la página en cuanto a la paleta de colores, creación y visualización de gráficos, imágenes y texto. | Encargada de la redacción de la historia del reportaje y la creación de la línea de tiempo. | Encargada de las herramientas interactivas de la página, como los "botones" de los géneros dominantes por año y la creación de la línea de tiempo. |
+
 
