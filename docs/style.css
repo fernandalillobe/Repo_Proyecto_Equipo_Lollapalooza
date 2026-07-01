@@ -2,6 +2,23 @@
     text-align: center;
 }
 
+.menu-principal {
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Titan One', cursive;
+    font-size: 1rem;
+}
+
+.menu-principal a:hover {
+    text-decoration: underline;
+}
+
 .imagen-cartel {
     display: block;
     width: 100vw;
