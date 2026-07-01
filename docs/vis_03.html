@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-4fc2975f82cd4e96aeba2c78492e9685"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "destacado", "scale": {"domain": ["Rock", "Electr\u00f3nica", "Pop", "Otros"], "range": ["#e63946", "#457b9d", "#f4a261", "#cccccc"]}, "type": "nominal"}, "tooltip": [{"field": "edicion lolla ", "type": "quantitative"}, {"field": "destacado", "type": "nominal"}, {"field": "cantidad", "type": "quantitative"}], "x": {"axis": {"format": "%"}, "field": "cantidad", "stack": "normalize", "type": "quantitative"}, "y": {"field": "edicion lolla ", "type": "ordinal"}}, "title": "G\u00e9neros predominantes por edici\u00f3n: Rock, Electr\u00f3nica y Pop", "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-4fc2975f82cd4e96aeba2c78492e9685": [{"edicion lolla ": 2011, "destacado": "Electr\u00f3nica", "cantidad": 19}, {"edicion lolla ": 2011, "destacado": "Otros", "cantidad": 56}, {"edicion lolla ": 2011, "destacado": "Pop", "cantidad": 12}, {"edicion lolla ": 2011, "destacado": "Rock", "cantidad": 44}, {"edicion lolla ": 2012, "destacado": "Electr\u00f3nica", "cantidad": 24}, {"edicion lolla ": 2012, "destacado": "Otros", "cantidad": 41}, {"edicion lolla ": 2012, "destacado": "Pop", "cantidad": 11}, {"edicion lolla ": 2012, "destacado": "Rock", "cantidad": 46}, {"edicion lolla ": 2013, "destacado": "Electr\u00f3nica", "cantidad": 23}, {"edicion lolla ": 2013, "destacado": "Otros", "cantidad": 40}, {"edicion lolla ": 2013, "destacado": "Pop", "cantidad": 24}, {"edicion lolla ": 2013, "destacado": "Rock", "cantidad": 62}, {"edicion lolla ": 2014, "destacado": "Electr\u00f3nica", "cantidad": 29}, {"edicion lolla ": 2014, "destacado": "Otros", "cantidad": 46}, {"edicion lolla ": 2014, "destacado": "Pop", "cantidad": 24}, {"edicion lolla ": 2014, "destacado": "Rock", "cantidad": 58}, {"edicion lolla ": 2015, "destacado": "Electr\u00f3nica", "cantidad": 32}, {"edicion lolla ": 2015, "destacado": "Otros", "cantidad": 47}, {"edicion lolla ": 2015, "destacado": "Pop", "cantidad": 16}, {"edicion lolla ": 2015, "destacado": "Rock", "cantidad": 42}, {"edicion lolla ": 2016, "destacado": "Electr\u00f3nica", "cantidad": 23}, {"edicion lolla ": 2016, "destacado": "Otros", "cantidad": 45}, {"edicion lolla ": 2016, "destacado": "Pop", "cantidad": 28}, {"edicion lolla ": 2016, "destacado": "Rock", "cantidad": 56}, {"edicion lolla ": 2017, "destacado": "Electr\u00f3nica", "cantidad": 34}, {"edicion lolla ": 2017, "destacado": "Otros", "cantidad": 42}, {"edicion lolla ": 2017, "destacado": "Pop", "cantidad": 33}, {"edicion lolla ": 2017, "destacado": "Rock", "cantidad": 55}, {"edicion lolla ": 2018, "destacado": "Electr\u00f3nica", "cantidad": 64}, {"edicion lolla ": 2018, "destacado": "Otros", "cantidad": 85}, {"edicion lolla ": 2018, "destacado": "Pop", "cantidad": 38}, {"edicion lolla ": 2018, "destacado": "Rock", "cantidad": 78}, {"edicion lolla ": 2019, "destacado": "Electr\u00f3nica", "cantidad": 98}, {"edicion lolla ": 2019, "destacado": "Otros", "cantidad": 124}, {"edicion lolla ": 2019, "destacado": "Pop", "cantidad": 40}, {"edicion lolla ": 2019, "destacado": "Rock", "cantidad": 60}, {"edicion lolla ": 2022, "destacado": "Electr\u00f3nica", "cantidad": 21}, {"edicion lolla ": 2022, "destacado": "Otros", "cantidad": 108}, {"edicion lolla ": 2022, "destacado": "Pop", "cantidad": 36}, {"edicion lolla ": 2022, "destacado": "Rock", "cantidad": 33}, {"edicion lolla ": 2023, "destacado": "Electr\u00f3nica", "cantidad": 41}, {"edicion lolla ": 2023, "destacado": "Otros", "cantidad": 82}, {"edicion lolla ": 2023, "destacado": "Pop", "cantidad": 46}, {"edicion lolla ": 2023, "destacado": "Rock", "cantidad": 64}, {"edicion lolla ": 2024, "destacado": "Electr\u00f3nica", "cantidad": 29}, {"edicion lolla ": 2024, "destacado": "Otros", "cantidad": 101}, {"edicion lolla ": 2024, "destacado": "Pop", "cantidad": 38}, {"edicion lolla ": 2024, "destacado": "Rock", "cantidad": 64}, {"edicion lolla ": 2025, "destacado": "Electr\u00f3nica", "cantidad": 27}, {"edicion lolla ": 2025, "destacado": "Otros", "cantidad": 83}, {"edicion lolla ": 2025, "destacado": "Pop", "cantidad": 45}, {"edicion lolla ": 2025, "destacado": "Rock", "cantidad": 52}, {"edicion lolla ": 2026, "destacado": "Electr\u00f3nica", "cantidad": 38}, {"edicion lolla ": 2026, "destacado": "Otros", "cantidad": 74}, {"edicion lolla ": 2026, "destacado": "Pop", "cantidad": 62}, {"edicion lolla ": 2026, "destacado": "Rock", "cantidad": 64}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
