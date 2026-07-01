@@ -5,6 +5,8 @@
 .imagen-cartel {
     display: block;
     width: 100vw;
+    height: 400px;
+    object-fit: cover;
     position: relative;
     left: 50%;
     right: 50%;
