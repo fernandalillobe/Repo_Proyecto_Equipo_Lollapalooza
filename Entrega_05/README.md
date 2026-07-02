@@ -1,4 +1,4 @@
-# *De música en vivo a conciertos teatrales: Los cambios que han tenido los shows en Lollapalooza Chile**
+# *De música en vivo a conciertos teatrales: Los cambios que han tenido los shows en Lollapalooza Chile*
 
 ## Historia
  Desde su llegada a Chile en 2011, Lollapalooza ha experimentado una transformación que va más allá de los artistas que forman parte en su cartelera. Si en sus primeras ediciones el festival estuvo marcado principalmente por bandas de rock y presentaciones centradas en la música en vivo, con el paso de los años comenzaron a incorporarse nuevos géneros musicales y artistas que trajeron otras formas de conseguir los espectáculos sobre el escenario.
