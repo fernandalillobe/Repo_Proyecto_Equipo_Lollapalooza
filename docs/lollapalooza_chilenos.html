@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "line", "color": "#00af9a", "point": true, "strokeWidth": 3}, "encoding": {"tooltip": [{"field": "edicion lolla", "title": "Edici\u00f3n", "type": "ordinal"}, {"field": "artistas_chilenos", "title": "N\u00b0 de artistas chilenos", "type": "quantitative"}], "x": {"field": "edicion lolla", "title": "Edici\u00f3n Lollapalooza", "type": "ordinal"}, "y": {"axis": {"titleColor": "#00af9a"}, "field": "artistas_chilenos", "title": "N\u00b0 de artistas chilenos", "type": "quantitative"}}}, {"mark": {"type": "line", "color": "#ffade3", "point": true, "strokeDash": [4, 4], "strokeWidth": 3}, "encoding": {"tooltip": [{"field": "edicion lolla", "title": "Edici\u00f3n", "type": "ordinal"}, {"field": "generos_unicos", "title": "Cantidad de g\u00e9neros musicales", "type": "quantitative"}], "x": {"field": "edicion lolla", "title": "Edici\u00f3n Lollapalooza", "type": "ordinal"}, "y": {"axis": {"titleColor": "#ffade3"}, "field": "generos_unicos", "title": "CANTIDAD DE G\u00c9NEROS MUSICALES", "type": "quantitative"}}}], "data": {"name": "data-d790343e44458549fa009484aa469710"}, "height": 420, "resolve": {"scale": {"y": "independent"}}, "title": "Evoluci\u00f3n de la presencia de artistas chilenos y cantidad de g\u00e9neros musicales en Lollapalooza", "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-d790343e44458549fa009484aa469710": [{"edicion lolla": 2011, "artistas_chilenos": 17, "generos_unicos": 28}, {"edicion lolla": 2012, "artistas_chilenos": 15, "generos_unicos": 26}, {"edicion lolla": 2013, "artistas_chilenos": 18, "generos_unicos": 32}, {"edicion lolla": 2014, "artistas_chilenos": 21, "generos_unicos": 35}, {"edicion lolla": 2015, "artistas_chilenos": 30, "generos_unicos": 36}, {"edicion lolla": 2016, "artistas_chilenos": 18, "generos_unicos": 33}, {"edicion lolla": 2017, "artistas_chilenos": 29, "generos_unicos": 37}, {"edicion lolla": 2018, "artistas_chilenos": 43, "generos_unicos": 55}, {"edicion lolla": 2019, "artistas_chilenos": 49, "generos_unicos": 50}, {"edicion lolla": 2022, "artistas_chilenos": 41, "generos_unicos": 34}, {"edicion lolla": 2023, "artistas_chilenos": 31, "generos_unicos": 35}, {"edicion lolla": 2024, "artistas_chilenos": 34, "generos_unicos": 46}, {"edicion lolla": 2025, "artistas_chilenos": 21, "generos_unicos": 39}, {"edicion lolla": 2026, "artistas_chilenos": 40, "generos_unicos": 58}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
