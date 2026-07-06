@@ -67,7 +67,7 @@ p {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 15px 30px;
+    padding: 20px 50px;
 }
 
 .logo-header {
@@ -81,7 +81,7 @@ p {
 }
 
 h2 {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 0 10px 0;
 }
 
 p{
@@ -187,4 +187,55 @@ section {
     max-width: 1000px;
     height: auto;
     margin: 20px auto;
+}
+
+/* 1. LIMITAR EL ANCHO DEL TEXTO en todas las secciones */
+section {
+    padding: 40px;
+}
+
+section p,
+section h1,
+section h2,
+section h3 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 2. TARJETAS para los bloques de texto */
+.tarjeta-texto {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    padding: 30px 40px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* 3. MÁS ESPACIO en el header para que el menú respire */
+.cabecera-principal {
+    background-color: #00af9a;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 50px;  /* más padding */
+}
+
+/* 4. MENÚ más grande y con más separación del logo */
+.menu-principal {
+    margin-left: auto;
+    display: flex;
+    gap: 40px;  /* más espacio entre links */
+}
+
+.menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Titan One', cursive;
+    font-size: 1.1rem;  /* un poco más grande */
+    letter-spacing: 0.5px;
+}
+
+.menu-principal a:hover {
+    opacity: 0.8;
 }
