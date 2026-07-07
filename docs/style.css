@@ -404,3 +404,13 @@ html {
   max-width: 1100px;   /* más ancho que el 800px general, ajusta a gusto */
   text-align: center;
 }
+/* Alinea el título y el párrafo dentro de .texto, sin afectar el resto del sitio */
+.texto h2,
+.texto p {
+  padding-left: 0;
+  padding-right: 0;
+}
+.seccion.texto-derecha .texto h2,
+.seccion.texto-derecha .texto p {
+  text-align: right;
+}
