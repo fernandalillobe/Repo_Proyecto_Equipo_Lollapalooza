@@ -42,5 +42,5 @@ observer.observe(video);
     btnPrev.addEventListener('click', () => ir(indice - 1));
     btnNext.addEventListener('click', () => ir(indice + 1));
 
-    setInterval(() => ir(indice + 1), 5000); // quita esta línea si no quieres autoplay
+    setInterval(() => ir(indice + 1), 10000); // quita esta línea si no quieres autoplay
   });
