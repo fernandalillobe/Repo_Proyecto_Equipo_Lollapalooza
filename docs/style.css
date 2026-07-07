@@ -412,5 +412,5 @@ html {
 }
 .seccion.texto-derecha .texto h2,
 .seccion.texto-derecha .texto p {
-  text-align: right;
+  text-align: left;
 }
