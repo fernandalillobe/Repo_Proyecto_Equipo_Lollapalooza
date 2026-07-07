@@ -63,10 +63,93 @@
             En el año 2016 los cambios ya se hacían notar con fuerza en la cartelera, incorporando nuevos estilos como la música electrónica con un 8,3% de presencia, el pop con un 4,4%, el hip hop con un 4,1%, el indie pop con un 3,5%, entre otros que fueron ganando espacio edición tras edición, reduciendo el peso predominante del rock dentro del festival. En ese año, el rapero estadounidense, Eminem, fue el primer headliner de hip hop en lo que llevaba el festival. Al año siguiente llegó la cantante estadounidense Melanie Martínez representando al pop e interpretando parte de sus mayores éxitos, tales como “Pity Party” y “Soap”, mientras que en 2018 y 2019 la música electrónica ganó protagonismo con figuras como DJ Snake y Steve Aoki. Precisamente esas dos ediciones fueron las que reunieron la mayor cantidad de artistas respecto al total de ediciones: en el año 2018 se presentaron 100 artistas, y en el 2019 fueron 125 en total.
           </p>
           </div>
-          <div style="background-color: white; border-radius: 12px; padding: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: block; margin: 30px auto; width: fit-content;">
-    <img src="imagenes/grafico2.jpg" alt="Crecimiento de bandas y diversidad de géneros" style="display:block; width:500px;">
-    
+          <div style="background-color: white; border-radius: 12px; padding: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: block; margin: 30px auto; max-width: 680px;">
+    <canvas id="grafico-bandas"></canvas>
 </div>
+
+<script>
+const observerBandas = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            new Chart(document.getElementById('grafico-bandas'), {
+                type: 'bar',
+                data: {
+                    labels: ['2011','2012','2013','2014','2015','2016','2017','2018','2019','2022','2023','2024','2025','2026'],
+                    datasets: [
+                        {
+                            label: 'Total de bandas',
+                            data: [50,44,54,59,65,57,61,100,125,93,90,91,74,90],
+                            backgroundColor: '#d5dd17',
+                            borderRadius: 4,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: 'Total de géneros únicos',
+                            data: [67,62,77,68,61,73,70,98,105,58,73,96,88,111],
+                            type: 'line',
+                            borderColor: '#ffade3',
+                            backgroundColor: '#ffade3',
+                            pointBackgroundColor: '#ffade3',
+                            pointRadius: 5,
+                            borderWidth: 2.5,
+                            tension: 0.3,
+                            yAxisID: 'y2'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    animation: {
+                        duration: 1400,
+                        easing: 'easeOutQuart',
+                        delay(ctx) { return ctx.dataIndex * 60; }
+                    },
+                    scales: {
+                        y: {
+                            type: 'linear',
+                            position: 'left',
+                            title: { display: true, text: 'Total de bandas', font: { family: 'Open Sans', size: 11 } },
+                            grid: { color: 'rgba(0,0,0,0.06)' }
+                        },
+                        y2: {
+                            type: 'linear',
+                            position: 'right',
+                            title: { display: true, text: 'Total de géneros únicos', font: { family: 'Open Sans', size: 11 } },
+                            grid: { display: false }
+                        },
+                        x: {
+                            title: { display: true, text: 'Edición Lollapalooza', font: { family: 'Open Sans', size: 11 } },
+                            grid: { display: false }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Crecimiento de bandas y diversidad de géneros por edición',
+                            font: { size: 13, weight: 'bold' },
+                            padding: { bottom: 16 }
+                        },
+                        legend: {
+                            position: 'top',
+                            labels: { font: { family: 'Open Sans', size: 11 }, padding: 12 }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label(ctx) {
+                                    return ` ${ctx.dataset.label}: ${ctx.raw}`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+            observerBandas.disconnect();
+        }
+    });
+});
+observerBandas.observe(document.getElementById('grafico-bandas'));
+</script>
+
 <div class="tarjeta-texto">
            <p>
           A lo largo de la historia de este festival, la presencia de la música chilena no se ha quedado atrás. Si bien en sus primeras ediciones no había una gran cantidad de artistas nacionales, a partir de 2017 comenzó a aumentar considerablemente la presencia de estos últimos, aunque no de forma continua.
