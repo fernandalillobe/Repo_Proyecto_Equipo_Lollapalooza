@@ -58,7 +58,7 @@
           </div>
           <div style="background-color: white; border-radius: 12px; padding: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: block; margin: 30px auto; width: fit-content;">
     <img src="imagenes/grafico2.jpg" alt="Crecimiento de bandas y diversidad de géneros" style="display:block; width:500px;">
-    <iframe src="vis_03.html" width="480" height="380" style="border:none; display:block;"></iframe>
+    
 </div>
 <div class="tarjeta-texto">
            <p>
@@ -80,9 +80,85 @@
             En quince años, el festival se convirtió en un reflejo fiel de cómo evolucionaron los gustos musicales, pasando desde una identidad marcada por el rock, a una en donde varios géneros confluyen entre sí para entregar una respuesta variada a las audiencias.
           </p>
           </div>
-          <div style="background-color: white; border-radius: 12px; padding: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: block; margin: 30px auto; width: fit-content;">
-    <iframe src="vis_03.html" width="480" height="380" style="border:none; display:block;"></iframe>
+          <div style="background-color: white; border-radius: 12px; padding: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: block; margin: 30px auto; max-width: 680px;">
+    <canvas id="grafico-generos"></canvas>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            new Chart(document.getElementById('grafico-generos'), {
+                type: 'bar',
+                data: {
+                    labels: ['2011','2012','2013','2014','2015','2016','2017','2018','2019','2022','2023','2024','2025','2026'],
+                    datasets: [
+                        { label: 'Electrónica', backgroundColor: '#d5dd17', borderRadius: 3, borderSkipped: false,
+                          data: [19,24,23,29,32,23,34,64,98,21,41,29,27,38] },
+                        { label: 'Otros', backgroundColor: '#cccccc', borderRadius: 3, borderSkipped: false,
+                          data: [56,41,40,46,47,45,42,85,124,108,82,101,83,74] },
+                        { label: 'Pop', backgroundColor: '#ffade3', borderRadius: 3, borderSkipped: false,
+                          data: [12,11,24,24,16,28,33,38,40,36,46,38,45,62] },
+                        { label: 'Rock', backgroundColor: '#ff3a0b', borderRadius: 3, borderSkipped: false,
+                          data: [44,46,62,58,42,56,55,78,60,33,64,64,52,64] }
+                    ]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    animation: {
+                        duration: 1400,
+                        easing: 'easeOutQuart',
+                        delay(ctx) { return ctx.dataIndex * 80; }
+                    },
+                    scales: {
+                        x: {
+                            stacked: true,
+                            ticks: {
+                                callback: (v, i, ticks) => {
+                                    const max = ticks[ticks.length-1].value;
+                                    return Math.round((v/max)*100) + '%';
+                                },
+                                font: { family: 'Open Sans', size: 11 }
+                            },
+                            grid: { color: 'rgba(0,0,0,0.06)' }
+                        },
+                        y: {
+                            stacked: true,
+                            ticks: { font: { family: 'Open Sans', size: 11 } },
+                            grid: { display: false }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Géneros predominantes por edición: Rock, Electrónica y Pop',
+                            font: { size: 13, weight: 'bold' },
+                            padding: { bottom: 16 }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label(ctx) {
+                                    const total = ctx.chart.data.datasets.reduce((s,ds) => s + ds.data[ctx.dataIndex], 0);
+                                    const pct = ((ctx.raw / total) * 100).toFixed(1);
+                                    return ` ${ctx.dataset.label}: ${pct}%`;
+                                }
+                            }
+                        },
+                        legend: {
+                            position: 'right',
+                            labels: { font: { family: 'Open Sans', size: 11 }, padding: 12 }
+                        }
+                    }
+                }
+            });
+            observer.disconnect();
+        }
+    });
+});
+observer.observe(document.getElementById('grafico-generos'));
+</script>
 
 <div class="contenedor-grilla">
   <!-- Fila 1 -->
