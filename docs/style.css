@@ -414,3 +414,11 @@ html {
 .seccion.texto-derecha .texto p {
   text-align: left;
 }
+.imagen-superior {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px; /* espacio entre la imagen y el carrusel, ajústalo a gusto */
+}
