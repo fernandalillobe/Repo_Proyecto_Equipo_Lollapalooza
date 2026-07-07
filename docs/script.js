@@ -1,5 +1,6 @@
 const video = document.getElementById('scrollVideo');
 
+if (video) {
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -11,7 +12,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 observer.observe(video);
-
+}
   document.querySelectorAll('[data-carrusel]').forEach(function (carrusel) {
     const track = carrusel.querySelector('.carrusel-track');
     const imgs = track.querySelectorAll('img');
