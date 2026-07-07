@@ -312,3 +312,91 @@ html {
     right: 0;
     z-index: 100;
 }
+.seccion {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.seccion.texto-izquierda { flex-direction: row; }
+.seccion.texto-derecha  { flex-direction: row-reverse; }
+
+.texto, .galeria {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.texto h2 { font-size: 2rem; margin-bottom: 1rem; }
+.texto p  { color: #6b7280; font-size: 1.05rem; }
+
+/* ---------- Carrusel ajustado para fotos horizontales ---------- */
+.carrusel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 2;   /* usa 16/9 si tus fotos son más panorámicas */
+  overflow: hidden;
+  border-radius: 12px;
+  background: #eee;
+}
+
+.carrusel-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.4s ease;
+}
+
+.carrusel-track img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 0 0 100%;
+}
+
+.carrusel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carrusel-btn:hover { background: rgba(0,0,0,0.75); }
+.carrusel-btn.prev { left: 10px; }
+.carrusel-btn.next { right: 10px; }
+
+.carrusel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+}
+.carrusel-dots button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.6);
+  cursor: pointer;
+  padding: 0;
+}
+.carrusel-dots button.activo { background: #fff; }
+
+@media (max-width: 720px) {
+  .seccion,
+  .seccion.texto-derecha {
+    flex-direction: column;
+  }
+}
