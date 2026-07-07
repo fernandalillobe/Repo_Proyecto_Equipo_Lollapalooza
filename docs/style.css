@@ -67,7 +67,7 @@ p {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 20px 50px;
+    padding: 10px 50px;
 }
 
 .seccion-turquesa {
@@ -75,12 +75,12 @@ p {
 }
 
 .logo-header {
-    width: 80px;
+    width: 50px;
     height: auto;
 }
 
 .titulo-header {
-    width: 380px;
+    width: 2500px;
     height: auto;
 }
 
