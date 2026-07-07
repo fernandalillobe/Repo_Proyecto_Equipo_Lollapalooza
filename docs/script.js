@@ -11,7 +11,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1 });
 
 observer.observe(video);
-<script>
+
   document.querySelectorAll('[data-carrusel]').forEach(function (carrusel) {
     const track = carrusel.querySelector('.carrusel-track');
     const imgs = track.querySelectorAll('img');
@@ -43,4 +43,3 @@ observer.observe(video);
 
     setInterval(() => ir(indice + 1), 5000); // quita esta línea si no quieres autoplay
   });
-</script>
