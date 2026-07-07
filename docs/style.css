@@ -444,3 +444,9 @@ html {
   border: 0;
   display: block;
 }
+.video-info-titulo {
+  max-width: 900px;
+  margin: 16px auto 0;
+  text-align: center;
+  font-size: 1.4rem;
+}
