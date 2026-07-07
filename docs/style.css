@@ -330,7 +330,7 @@ html {
 }
 
 .texto h2 { font-size: 2rem; margin-bottom: 1rem; }
-.texto p  { color: #6b7280; font-size: 1.05rem; }
+.texto p  { color: #fefefe; font-size: 1.05rem; }
 
 /* ---------- Carrusel ajustado para fotos horizontales ---------- */
 .carrusel {
