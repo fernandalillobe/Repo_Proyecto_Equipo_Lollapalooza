@@ -387,3 +387,60 @@ html {
 .seccion.texto-derecha .texto p {
   text-align: left;
 }
+.carrusel-videos-titulo {
+  text-align: center;
+}
+
+.carrusel-videos {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #000;
+}
+
+.carrusel-videos .carrusel-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.4s ease;
+}
+
+.video-slide {
+  flex: 0 0 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}
+
+.video-slide::after {
+  content: "▶";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-slide.reproduciendo::after {
+  display: none;
+}
+
+.video-slide iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
