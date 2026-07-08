@@ -593,3 +593,10 @@ html {
     max-width: 1000px;
     margin: 0 auto;
 }
+.titulo-seccion-naranja {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
