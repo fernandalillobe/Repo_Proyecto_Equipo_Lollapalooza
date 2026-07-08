@@ -580,20 +580,16 @@ html {
 .titulo-ancho, .video-info-titulo, .carrusel-videos-titulo, .hero-contenido h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
 }
-.texto h2, .tarjeta-texto h2 {
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)!important;
-}
 .pie-pagina {
-    width: 100%;
-    padding: 30px 20px;
+    padding: 40px 20px;
     text-align: center;
-    background-color: #00af9a; /* puedes cambiarlo al color que quieras */
-    color: white;
+    width: 100%;
+    background-color: #17d1bb; /* Tu color turquesa vivo */
 }
 
 .pie-pagina p {
-    padding: 0; /* para que no herede el padding grande que tienes en el selector general "p" */
-    font-family: 'Open Sans', sans-serif;
     font-size: 0.9rem;
-    max-width: none; /* por si el selector "section p" le mete un max-width que no quieres aquí */
+    color: white; /* Asegura que el texto sea blanco y resalte sobre el turquesa */
+    max-width: 1000px;
+    margin: 0 auto;
 }
