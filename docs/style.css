@@ -45,9 +45,44 @@ p {
 }
 
 .seccion-turquesa {
-    padding: 0;
+    width: 100%;
+    padding: 60px 20px;
+    
+    /* Tu color turquesa base */
+    background-color: #14b8a6; 
+    
+    /* Cargamos tus stickers en esta sección */
+    background-image: url('imagenes/fondostickers.png');
+    background-repeat: repeat;
+    
+    /* Controla el tamaño de los stickers (30% o 35% queda ideal para que no saturen) */
+    background-size: 32%; 
+    
+    /* Mantiene los stickers quietos al bajar con el mouse, da un efecto hermoso */
+    background-attachment: fixed; 
 }
 
+/* 2. El cuadro blanco de la introducción y el de la playlist */
+.tarjeta-texto {
+    width: 100%;
+    max-width: 680px; /* Al igual que tu gráfico, para que todo quede alineado */
+    margin: 30px auto;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    
+    /* CLAVE: Fondo blanco sólido para que tape los stickers que pasan por detrás */
+    background-color: #ffffff; 
+    
+    /* Evita que los stickers se asomen por las esquinas redondeadas */
+    overflow: hidden; 
+}
+
+/* 3. Ajuste extra por si el cuadro de la playlist tiene un fondo transparente */
+.tarjeta-texto iframe {
+    background-color: #181818; /* Le da el fondo oscuro original de Spotify */
+    border-radius: 12px;
+}
 .logo-header {
     width: 50px;
     height: auto;
