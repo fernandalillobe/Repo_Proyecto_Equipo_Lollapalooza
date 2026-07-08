@@ -15,6 +15,12 @@ Es aquí donde abordamos cómo ha cambiado el concepto de concierto en vivo, pue
 
 ## Sobre el estilo narrativo y las visualizaciones 
 
+En cuanto a las crónicas, nos basamos en trabajos anteriores en donde analizamos la diversidad de géneros musicales presentes en el festival, así como la presencia de los artistas nacionales a lo largo de las ediciones junto con la variedad de géneros que estos ofrecían. 
+
+La diversidad de géneros se ha hecho evidente con el pasar de los años. Como bien se ha comentado a lo largo de las entregas, los datos demuestran que los géneros musicales han ido diversificándose, trayendo a la cartelera una variedad musical ligada a los gustos de la audiencia y de la oferta y demanda. En sus inicios, este festival se caracterizaba por su fuerte presencia rockera; hoy, esa identidad se ha amortiguado por la fuerza y el surgimiento de nuevos géneros. Por lo mismo, ello debía quedar expresado en la narrativa de nuestra webstory, y los gráficos y fotos dispuestos son el fiel reflejo de ello.
+
+Sumado a esto, en nuestra webstory decidimos evidenciar cómo la presencia de artistas nacionales en este festival ha aumentado con el paso de los años, además de mostrar la variedad de géneros musicales que estos ofrecían en cada edición. Dado que el foco central de nuestro reportaje es la evolución performática de las presentaciones del Lollapalooza, decidimos puntualizar los datos más interesantes de este ámbito del festival. Esto se hizo tanto para no alejarnos de nuestro foco principal como para no dejar de lado el cómo la música chilena forma parte importante de este evento.
+
 En cuanto al texto que utilizamos en la página web, lo que más destacamos es el uso de las preguntas en la mayoría de los subtítulos. Al utilizar este recurso, buscamos potenciar el interés del usuario para que continúe leyendo nuestra webstory, ya que no querrá quedarse con la incertidumbre respecto de cuáles son las respuestas a esas preguntas.
 
 En nuestras secciones, y como se mencionó previamente, buscamos introducir al usuario en nuestra historia, brindándole un contexto sobre la llegada del festival al país, explicando cómo ha evolucionado la oferta musical que ofrece este evento, para luego darle a conocer la evolución performática de los artistas que se han presentado en el festival. En todas estas secciones utilizamos un estilo narrativo informativo, por ende, predomina la objetividad en la redacción de nuestro texto, ofreciendo datos duros y análisis en base a estos últimos. 
