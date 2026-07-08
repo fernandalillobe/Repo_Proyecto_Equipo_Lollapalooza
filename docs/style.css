@@ -601,3 +601,19 @@ html {
     padding-bottom: 10px;
 }
 
+/* Sombra pop obligatoria para todas las clases de títulos */
+.titulo-ancho, .video-info-titulo, .carrusel-videos-titulo, .hero-contenido h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) #111111 !important;
+}
+.texto h2, .tarjeta-texto h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) #111111 !important;
+}
+.texto h2, .tarjeta-texto h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) #111111 !important;
+}
+.tarjeta-texto h1, 
+.tarjeta-texto h2, 
+.tarjeta-texto h3,
+.texto h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+}
