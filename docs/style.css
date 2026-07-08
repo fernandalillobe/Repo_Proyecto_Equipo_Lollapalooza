@@ -600,14 +600,4 @@ html {
     padding-top: 20px;
     padding-bottom: 10px;
 }
-.imagen-antes-footer {
-    display: block;
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-top: -150px;
-    height: 280px;
-    object-fit: cover;
-    object-position: center;
-    position: relative;
-    z-index: 2;
-}
+
