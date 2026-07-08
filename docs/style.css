@@ -580,6 +580,23 @@ html {
 .titulo-ancho, .video-info-titulo, .carrusel-videos-titulo, .hero-contenido h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
 }
-.texto h2, .tarjeta-texto h2 {
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)!important;
+.pie-pagina {
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #17d1bb; /* Tu color turquesa vivo */
+}
+
+.pie-pagina p {
+    font-size: 0.9rem;
+    color: white; /* Asegura que el texto sea blanco y resalte sobre el turquesa */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.titulo-seccion-naranja {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
