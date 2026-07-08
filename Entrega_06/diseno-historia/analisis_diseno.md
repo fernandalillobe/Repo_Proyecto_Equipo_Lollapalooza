@@ -2,6 +2,8 @@
 
 ## Diseño de la información y recorrido del usuario 
 
+
+![alt text](image.png)
 La primera decisión que tomamos fue comenzar con un contexto previo sobre el hecho en sí a analizar, que en nuestro caso era la llegada de Lollapalooza a Chile y la propuesta inicial de este festival. 
 
 A medida en que fuimos avanzando, nuestra idea general era demostrar que Lollapalooza se ha ido transformando a lo largo de los años (lo que va de la mano con nuestra hipótesis), por lo que decidimos guiar la narrativa hacia lo que consideramos uno de los principales ejes del cambio: los géneros musicales. 
@@ -14,6 +16,8 @@ Es aquí donde abordamos cómo ha cambiado el concepto de concierto en vivo, pue
 
 
 ## Sobre el estilo narrativo y las visualizaciones 
+
+![alt text](image-1.png)
 
 En cuanto a las crónicas, nos basamos en trabajos anteriores en donde analizamos la diversidad de géneros musicales presentes en el festival, así como la presencia de los artistas nacionales a lo largo de las ediciones junto con la variedad de géneros que estos ofrecían. 
 
@@ -31,6 +35,8 @@ Al ofrecer una redacción objetiva y documentada, apoyada en visualizaciones, se
 
 
 ## Decisiones sobre elementos visuales 
+
+![alt text](image-2.png)
 
 La página web consta con una serie de elementos visuales acordes con la estética representativa del festival Lollapalooza para generar cercanía y darle una identidad a la página “LollaPerformances”.
 
