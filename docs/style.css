@@ -583,3 +583,17 @@ html {
 .texto h2, .tarjeta-texto h2 {
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)!important;
 }
+.pie-pagina {
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #00af9a; /* puedes cambiarlo al color que quieras */
+    color: white;
+}
+
+.pie-pagina p {
+    padding: 0; /* para que no herede el padding grande que tienes en el selector general "p" */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    max-width: none; /* por si el selector "section p" le mete un max-width que no quieres aquí */
+}
