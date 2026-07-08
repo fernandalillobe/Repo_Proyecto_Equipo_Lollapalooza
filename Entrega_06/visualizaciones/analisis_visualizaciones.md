@@ -1,9 +1,10 @@
 # Análisis de las visualizaciones #
 
-## ¿Ha aumentado ek número de artistas? 
+## ¿Ha aumentado el número de artistas? 
 
-Este gráfico de barras y líneas se construyó en base al análisis de la aparición de nuevos géneros musicales y el aumento de los artistas que se han presentado con el pasar de los años, siendo el año 2019 donde hubo la mayor cantidad.
+Este gráfico interactivo de barras y líneas se construyó en base al análisis de la aparición de nuevos géneros musicales y el aumento de los artistas que se han presentado con el pasar de los años.
 
+A través del análisis de los tres géneros por artista (banda y solista), el gráfico evidenció un cambio evidente, partiendo en el año 2011 con 50 artistas y 67 géneros. En 2015 llegaron a 65 los artistas, con 61 géneros, y ya en el 2019 se presenció la mayor cantidad con 125 artistas y 105 géneros.
 
 ## ¿Cuál es la representación de artistas chilenos en Lollapalooza y sus respectivos géneros?
 
@@ -20,3 +21,9 @@ En este gráfico de barras interactivo hemos podido desglosar de forma más simp
 Esta visualización busca demostrar que, si bien Lollapalooza inició como un festival dedicado principalmente al rock, con los años, otros géneros musicales fueron tomando fuerza, revelando variaciones como por ejemplo una "caída" del rock en la edición 2022. 
 
 Sin embargo, la conclusión más importante que nos refleja el gráfico es que ningún género ha llegado a desaparecer del todo, sino que el abanico de artistas y sus respectivos géneros están en constante variación con el paso de los años. 
+
+### Referencias
+Radio Universidad de Chile. (11 de febrero de 2026). Del rock histórico al nuevo urbano: estos son algunos de los artistas nacionales que serán parte del Lollapalooza Chile 2026. https://radio.uchile.cl/2026/02/11/del-rock-historico-al-nuevo-urbano-estos-son-algunos-de-los-artistas-nacionales-que-seran-parte-del-lollapalooza-chile-2026/
+
+Portal de la Música en Vivo. (s.f.). La música en vivo se consolida como la forma de entretenimiento favorita en el mundo, según Live Nation. https://portaldelamusicaenvivo.com/la-musica-en-vivo-se-consolida-como-la-forma-de-entretenimiento-favorita-en-el-mundo-segun-live-nation/ 
+
