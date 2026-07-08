@@ -2,8 +2,9 @@
 
 ## ¿Ha aumentado el número de artistas? 
 
-Este gráfico de barras y líneas se construyó en base al análisis de la aparición de nuevos géneros musicales y el aumento de los artistas que se han presentado con el pasar de los años, siendo el año 2019 donde hubo la mayor cantidad.
+Este gráfico interactivo de barras y líneas se construyó en base al análisis de la aparición de nuevos géneros musicales y el aumento de los artistas que se han presentado con el pasar de los años.
 
+A través del análisis de los tres géneros por artista (banda y solista), el gráfico evidenció un cambio evidente, partiendo en el año 2011 con 50 artistas y 67 géneros. En 2015 llegaron a 65 los artistas, con 61 géneros, y ya en el 2019 se presenció la mayor cantidad con 125 artistas y 105 géneros.
 
 ## ¿Cuál es la representación de artistas chilenos en Lollapalooza y sus respectivos géneros?
 
