@@ -578,5 +578,8 @@ html {
 }
 /* Sombra pop obligatoria para todas las clases de títulos */
 .titulo-ancho, .video-info-titulo, .carrusel-videos-titulo, .hero-contenido h1 {
-    text-shadow: 4px 4px 0px #111111 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) !important;
+}
+.texto h2, .tarjeta-texto h2 {
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)!important;
 }
