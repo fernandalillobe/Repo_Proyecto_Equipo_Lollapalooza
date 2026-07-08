@@ -331,7 +331,22 @@ html {
     background-color: #ff3a0b;
     padding-top: 20px;
 }
+.seccion-artistas-stickers {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #d5dd17; /* Aquí pon el color naranjo de fondo que usas de base */
+    background-image: url('imagenes/fondostickers.png');
+    background-repeat: repeat;
+    background-size: 70%; /* Ajusta el % según qué tan grandes quieras los stickers */
+    background-attachment: fixed; /* Mantiene el efecto fijo al hacer scroll */
+}
 
+/* Forzamos a que todas las tarjetas de texto dentro de esta zona sean blancas y sólidas */
+.seccion-artistas-stickers .tarjeta-texto {
+    background-color: #17d1bb !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2) !important;
+    border-radius: 12px;
+}
 .seccion.texto-izquierda { flex-direction: row; }
 .seccion.texto-derecha  { flex-direction: row-reverse; }
 
