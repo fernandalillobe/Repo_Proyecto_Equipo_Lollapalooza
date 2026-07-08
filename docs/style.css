@@ -8,6 +8,74 @@ body {
 
 h1, h2, h3 {
     font-family: 'Titan One', 'Fredoka One', cursive;
+    .texto-bienvenida {
+    text-align: center;
+    text-shadow: 4px 4px 0px #111111 !important;
+}
+
+body {
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Titan One', 'Fredoka One', cursive;
+    text-shadow: 4px 4px 0px #111111 !important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.seccion-turquesa {
+    background-color: #00af9a;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.seccion-naranja {
+    background-color: #ff3a0b;
+}
+
+.seccion-lima {
+    background-color: #d5dd17;
+}
+.seccion-rosada {
+    background-color: #e9bad4;
+}
+
+.cabecera-principal {
+    background-color: #00af9a;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 6px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.seccion-turquesa {
+    width: 100%;
+    padding: 60px 20px;
+    
+    /* Tu color turquesa base */
+    background-color: #00af9a; 
+    
+    /* Cargamos tus stickers en esta sección */
+    background-image: url('imagenes/fondostickers.png');
+    background-repeat: repeat;
+    
+    /* Controla el tamaño de los stickers (30% o 35% queda ideal para que no saturen) */
+    background-size: 70%; 
+    
+    /* Mantiene los stickers quietos al bajar con el mouse, da un efecto hermoso */
+    background-attachment: fixed; 
+}
 }
 
 p {
@@ -83,6 +151,7 @@ p {
 
 /* 3. Ajuste extra por si el cuadro de la playlist tiene un fondo transparente */
 .tarjeta-texto iframe {
+    text-shadow: 4px 4px 0px #111111 !important;
     background-color: #181818; /* Le da el fondo oscuro original de Spotify */
     border-radius: 12px;
 }
@@ -506,4 +575,8 @@ html {
 .tarjeta-texto {
     background-color: #17d1bb !important; /* El !important fuerza el cambio */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+/* Sombra pop obligatoria para todas las clases de títulos */
+.titulo-ancho, .video-info-titulo, .carrusel-videos-titulo, .hero-contenido h1 {
+    text-shadow: 4px 4px 0px #111111 !important;
 }
