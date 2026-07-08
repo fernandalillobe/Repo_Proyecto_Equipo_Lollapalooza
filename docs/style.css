@@ -56,7 +56,7 @@ p {
     background-repeat: repeat;
     
     /* Controla el tamaño de los stickers (30% o 35% queda ideal para que no saturen) */
-    background-size: 32%; 
+    background-size: 50%; 
     
     /* Mantiene los stickers quietos al bajar con el mouse, da un efecto hermoso */
     background-attachment: fixed; 
